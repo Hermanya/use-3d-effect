@@ -1,14 +1,14 @@
 {
-  "main.css": "/static/css/main.26b4c4d3.chunk.css",
-  "main.js": "/static/js/main.93d7676d.chunk.js",
-  "main.js.map": "/static/js/main.93d7676d.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.c5541365.js",
-  "runtime~main.js.map": "/static/js/runtime~main.c5541365.js.map",
-  "static/js/2.4b0b1626.chunk.js": "/static/js/2.4b0b1626.chunk.js",
-  "static/js/2.4b0b1626.chunk.js.map": "/static/js/2.4b0b1626.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.62514fab776055484b9403b6f2410116.js": "/precache-manifest.62514fab776055484b9403b6f2410116.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.26b4c4d3.chunk.css.map": "/static/css/main.26b4c4d3.chunk.css.map",
-  "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+  "main.css": "/use-3d-effect/static/css/main.26b4c4d3.chunk.css",
+  "main.js": "/use-3d-effect/static/js/main.28fa8ba1.chunk.js",
+  "main.js.map": "/use-3d-effect/static/js/main.28fa8ba1.chunk.js.map",
+  "runtime~main.js": "/use-3d-effect/static/js/runtime~main.6ce823ea.js",
+  "runtime~main.js.map": "/use-3d-effect/static/js/runtime~main.6ce823ea.js.map",
+  "static/js/2.4b0b1626.chunk.js": "/use-3d-effect/static/js/2.4b0b1626.chunk.js",
+  "static/js/2.4b0b1626.chunk.js.map": "/use-3d-effect/static/js/2.4b0b1626.chunk.js.map",
+  "index.html": "/use-3d-effect/index.html",
+  "precache-manifest.a62a091e983be7b13b2289a0d09dfa0d.js": "/use-3d-effect/precache-manifest.a62a091e983be7b13b2289a0d09dfa0d.js",
+  "service-worker.js": "/use-3d-effect/service-worker.js",
+  "static/css/main.26b4c4d3.chunk.css.map": "/use-3d-effect/static/css/main.26b4c4d3.chunk.css.map",
+  "static/media/logo.svg": "/use-3d-effect/static/media/logo.5d5d9eef.svg"
 }
