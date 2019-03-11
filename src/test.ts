@@ -1,7 +1,7 @@
-import { useMyHook } from './'
+import { use3dEffect } from "./";
 
-describe('useMyHook', () => {
-  it('is truthy', () => {
-    expect(useMyHook).toBeTruthy()
-  })
-})
+describe("use3dEffect", () => {
+  it("is truthy", () => {
+    expect(use3dEffect).toBeTruthy();
+  });
+});

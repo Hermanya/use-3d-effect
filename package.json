@@ -1,7 +1,7 @@
 {
   "name": "use-3d-effect",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "React hook for 3D tilt card effect",
   "author": "Hermanya",
   "license": "MIT",
   "repository": "Hermanya/use-3d-effect",
@@ -21,19 +21,26 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
-  "dependencies": {},
   "peerDependencies": {
-    "react": "^16.8.0"
+    "react": "^16.8.0",
+    "react-spring": "^8.0.14",
+    "resize-observer-polyfill": "^1.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/runtime": "^7.3.1",
     "@types/jest": "^23.3.13",
-    "@types/react": "^16.7.22",
+    "@types/react": "^16.8.7",
+    "@typescript-eslint/eslint-plugin": "^1.4.2",
     "cross-env": "^5.2.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
     "gh-pages": "^2.0.1",
+    "prettier": "^1.16.4",
     "react": "^16.8.0",
     "react-scripts": "^2.1.3",
+    "react-spring": "^8.0.14",
+    "resize-observer-polyfill": "^1.5.1",
     "rollup": "^1.1.2",
     "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-commonjs": "^9.2.0",
@@ -42,5 +49,23 @@
     "rollup-plugin-typescript2": "^0.19.2",
     "rollup-plugin-url": "^2.1.0",
     "typescript": "^3.2.4"
-  }
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "plugin:@typescript-eslint/recommended",
+      "react-app",
+      "prettier",
+      "prettier/@typescript-eslint"
+    ],
+    "plugins": [
+      "@typescript-eslint",
+      "react",
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": "error"
+    }
+  },
+  "files": ["dist"]
 }
