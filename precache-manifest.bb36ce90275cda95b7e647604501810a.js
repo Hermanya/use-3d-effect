@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/use-3d-effect/static/js/runtime~main.6ce823ea.js"
   },
   {
-    "revision": "5c018779916f6f569111",
-    "url": "/use-3d-effect/static/js/main.28fa8ba1.chunk.js"
+    "revision": "1f53f3bde7107c419f26",
+    "url": "/use-3d-effect/static/js/main.a20a5d15.chunk.js"
   },
   {
     "revision": "08de86d1d0cc99b56d57",
     "url": "/use-3d-effect/static/js/2.4b0b1626.chunk.js"
   },
   {
-    "revision": "5c018779916f6f569111",
-    "url": "/use-3d-effect/static/css/main.26b4c4d3.chunk.css"
+    "revision": "1f53f3bde7107c419f26",
+    "url": "/use-3d-effect/static/css/main.44070ec5.chunk.css"
   },
   {
-    "revision": "2e9764f2399a6889694cac2810c743a5",
+    "revision": "e35b23865bb0ffd388f380bff9665eba",
     "url": "/use-3d-effect/index.html"
   }
 ];
