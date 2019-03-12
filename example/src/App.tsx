@@ -51,6 +51,23 @@ const App: React.FunctionComponent<{}> = (): JSX.Element => {
         >
           Hover over me!
         </animated.div>
+        <footer className="App-footer">
+          <a
+            className="App-link"
+            href="https://npmjs.org/package/use-3d-effect"
+          >
+            npm
+          </a>
+          <a
+            className="App-link"
+            href="https://github.com/hermanya/use-3d-effect"
+          >
+            github
+          </a>
+          <a className="App-link" href="https://hermanya.github.io">
+            made by Herman Starikov
+          </a>
+        </footer>
       </header>
       <div className="App-body">
         <code className="App-code">
@@ -70,23 +87,7 @@ const App: React.FunctionComponent<{}> = (): JSX.Element => {
           {example}
         </SyntaxHighlighter>
 
-        <footer className="App-footer">
-          <a
-            className="App-link"
-            href="https://npmjs.org/package/use-3d-effect"
-          >
-            npm
-          </a>
-          <a
-            className="App-link"
-            href="https://github.com/hermanya/use-3d-effect"
-          >
-            github
-          </a>
-          <a className="App-link" href="https://hermanya.github.io">
-            made by Herman Starikov
-          </a>
-        </footer>
+
       </div>
     </div>
   );
