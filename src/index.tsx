@@ -1,7 +1,7 @@
 import { useSpring } from "react-spring";
 import { useState, useEffect } from "react";
+import ResizeObserver from "resize-observer-polyfill";
 
-type ResizeObserverEntry = any // eslint-disable-line
 interface Bounds {
   left: number;
   top: number;
@@ -10,14 +10,10 @@ interface Bounds {
 }
 const initialBounds: Bounds = { left: 0, top: 0, width: 0, height: 0 };
 function useBoundingClientRect(ref: React.RefObject<HTMLDivElement>): Bounds {
-  if (!window["ResizeObserver"]) {
-    console.warn(`use-3d-effect requires a ResizeObserver polyfill`);
-    return initialBounds;
-  }
   const [bounds, set] = useState<Bounds>(initialBounds);
   const [ro] = useState(
     () =>
-      new window["ResizeObserver"](([entry]: ResizeObserverEntry[]) =>
+      new ResizeObserver(([entry]: ResizeObserverEntry[]) =>
         set(entry.target.getBoundingClientRect())
       )
   );

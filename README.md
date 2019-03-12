@@ -18,7 +18,6 @@ npm install --save use-3d-effect
 
 ```tsx
 import * as React from 'react'
-import 'resize-observer-polyfill';
 import { animated } from 'react-spring';
 import { use3dEffect } from 'use-3d-effect';
 

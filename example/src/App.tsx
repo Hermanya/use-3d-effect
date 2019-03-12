@@ -1,13 +1,11 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import "resize-observer-polyfill";
 import { animated } from "react-spring";
 import { use3dEffect } from "use-3d-effect";
 import SyntaxHighlighter from "react-syntax-highlighter";
 
 const example = `
-import 'resize-observer-polyfill';
 import { animated } from 'react-spring';
 import { use3dEffect } from 'use-3d-effect';
 
@@ -26,6 +24,7 @@ const Example = () => {
     >
       Hover over me!
     </animated.div>
+  );
 };
 `;
 const App: React.FunctionComponent<{}> = (): JSX.Element => {
@@ -72,9 +71,7 @@ const App: React.FunctionComponent<{}> = (): JSX.Element => {
       <div className="App-body">
         <code className="App-code">
           yarn add use-3d-effect{" "}
-          <span style={{ color: "gray" }}>
-            react-spring resize-observer-polyfill
-          </span>
+          <span style={{ color: "gray" }}>react-spring</span>
         </code>
         <SyntaxHighlighter
           language="javascript"
@@ -86,8 +83,6 @@ const App: React.FunctionComponent<{}> = (): JSX.Element => {
         >
           {example}
         </SyntaxHighlighter>
-
-
       </div>
     </div>
   );
