@@ -1,6 +1,6 @@
 {
   "name": "use-3d-effect",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "React hook for 3D tilt card effect",
   "author": "Hermanya",
   "license": "MIT",
@@ -68,5 +68,7 @@
       "prettier/prettier": "error"
     }
   },
-  "files": ["dist"]
+  "files": [
+    "dist"
+  ]
 }
